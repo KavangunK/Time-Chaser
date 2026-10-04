@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bulp0755cw7ct"
+path="res://.godot/imported/First Battle Theme.mp3-8f197ce41a8f4eea02397ab89db07907.mp3str"
+
+[deps]
+
+source_file="res://assets/music/First Battle Theme.mp3"
+dest_files=["res://.godot/imported/First Battle Theme.mp3-8f197ce41a8f4eea02397ab89db07907.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

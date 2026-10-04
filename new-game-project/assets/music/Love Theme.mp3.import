@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bgtd0moek67lg"
+path="res://.godot/imported/Love Theme.mp3-abbc1c1d80720ec9406d0c94533d0889.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Love Theme.mp3"
+dest_files=["res://.godot/imported/Love Theme.mp3-abbc1c1d80720ec9406d0c94533d0889.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://svbmvpho7ui3"]
+
+[ext_resource type="Script" uid="uid://b0pr5p08ucdbn" path="res://scene/astroid.gd" id="1_4q571"]
+[ext_resource type="Texture2D" uid="uid://c78vi15tfo0s2" path="res://assets/images/Untitled1_20261004124128.png" id="1_5g6hj"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yyeeb"]
+radius = 40.4475
+
+[node name="Astroid" type="AnimatableBody2D" unique_id=2072449380]
+script = ExtResource("1_4q571")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2034509938]
+position = Vector2(-5.500002, -1.4999993)
+scale = Vector2(0.16210936, 0.17773436)
+texture = ExtResource("1_5g6hj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=841675989]
+position = Vector2(-2, -1)
+shape = SubResource("CircleShape2D_yyeeb")

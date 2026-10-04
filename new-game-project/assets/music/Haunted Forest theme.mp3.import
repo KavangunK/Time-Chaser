@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkvjb8gjb3mw6"
+path="res://.godot/imported/Haunted Forest theme.mp3-7f27fad3fcd92be103ee65829b085e09.mp3str"
+
+[deps]
+
+source_file="res://assets/music/Haunted Forest theme.mp3"
+dest_files=["res://.godot/imported/Haunted Forest theme.mp3-7f27fad3fcd92be103ee65829b085e09.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

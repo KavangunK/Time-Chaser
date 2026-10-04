@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://0cey5vyfril1"]
 
 [ext_resource type="Script" uid="uid://cpmb4oae4885j" path="res://scene/main_menu.gd" id="1_3er1b"]
+[ext_resource type="Texture2D" uid="uid://c68n8krpk86lq" path="res://assets/images/Blue_Nebula_02-1024x1024.png" id="2_hxu56"]
+[ext_resource type="AudioStream" uid="uid://bkvjb8gjb3mw6" path="res://assets/music/Haunted Forest theme.mp3" id="3_2fwvj"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yyeeb"]
 bg_color = Color(0.105882354, 0, 0.20392157, 1)
@@ -26,6 +28,11 @@ script = ExtResource("1_3er1b")
 layout_mode = 0
 offset_right = 1183.0
 offset_bottom = 667.0
+
+[node name="BlueNebula021024x1024" type="Sprite2D" parent="Panel" unique_id=946652413]
+position = Vector2(595.00006, 366)
+scale = Vector2(1.2500001, 1.0800781)
+texture = ExtResource("2_hxu56")
 
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=2083445277]
 layout_mode = 1
@@ -73,6 +80,24 @@ theme_override_styles/hover = SubResource("StyleBoxFlat_7bs3j")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_pffv2")
 text = "Exit"
 metadata/_edit_group_ = true
+
+[node name="Label" type="Label" parent="." unique_id=959693229]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -235.5
+offset_right = 235.5
+offset_bottom = 111.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Time Drifter"
+horizontal_alignment = 1
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." unique_id=1445304803]
+stream = ExtResource("3_2fwvj")
+autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="VBoxContainer/Tutorial" to="." method="_on_tutorial_pressed"]
