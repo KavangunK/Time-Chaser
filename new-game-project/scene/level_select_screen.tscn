@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://c58mqvtsnvlbn"]
+
+[node name="Level Select Screen" type="Control" unique_id=1225572687]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Main Menu" type="Button" parent="." unique_id=786635959]
+layout_mode = 0
+offset_left = 402.0
+offset_top = 96.0
+offset_right = 673.0
+offset_bottom = 261.0
+text = "Main Menu"
+
+[node name="Level 1" type="Button" parent="." unique_id=1930507126]
+layout_mode = 0
+offset_left = 405.0
+offset_top = 310.0
+offset_right = 676.0
+offset_bottom = 502.0
+text = "Level 1"
